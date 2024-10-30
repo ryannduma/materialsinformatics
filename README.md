@@ -1,6 +1,7 @@
 # SMACT Materials Informatics Tutorial Series
 
 This repository contains a series of Jupyter notebooks designed to teach materials informatics using SMACT (Semiconducting Materials by Analogy and Chemical Theory).
+- Documentation: https://smact.readthedocs.io/en/latest/
 
 ## Getting Started
 
