@@ -1,0 +1,27 @@
+# Core dependencies
+smact>=2.8
+numpy<2
+scipy
+spglib
+pymatgen>=2024.2.20,<2024.8.8
+ase
+pandas
+pathos
+typing-extensions
+
+# Visualization and notebook dependencies
+matplotlib
+seaborn
+jupyter
+jupyterlab
+notebook
+ipywidgets
+
+# Development dependencies
+pre-commit==3.3.3
+black==24.3.0
+isort==5.12.0
+pytest==8.3.2
+nbqa==1.8.5
+pyupgrade==3.16.0
+pytest-cov==5.0.0
