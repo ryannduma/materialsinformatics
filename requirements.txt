@@ -15,6 +15,7 @@ matplotlib
 seaborn
 jupyter
 jupyterlab
+jupyter-book
 notebook
 ipywidgets
 
