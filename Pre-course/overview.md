@@ -1,6 +1,6 @@
 # Introduction to the Course
 
-Welcome to the **"Fundamentals of Machine Learning and AI for Materials Exploration"** course! This course is designed for incoming students eager to delve into the exciting intersection of materials science, machine learning, and artificial intelligence. You will learn how to leverage computational tools to accelerate the discovery of new materials, focusing primarily on the **SMACT (Semiconducting Materials from Analogy and Chemical Theory)** toolkit. SMACT offers a collection of rapid screening and informatics tools utilizing chemical element data to facilitate materials exploration.
+Welcome to the "Materials Informatics Advanced Practical" course! This course is designed to help you delve into the exciting intersection of materials science, machine learning, and artificial intelligence. You will learn how to leverage computational tools to accelerate the discovery of new materials, focusing primarily on the SMACT (Semiconducting Materials from Analogy and Chemical Theory) toolkit. SMACT offers a collection of rapid screening and informatics tools utilizing chemical element data to facilitate materials exploration.
 
 # Course Overview
 
