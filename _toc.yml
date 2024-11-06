@@ -1,0 +1,55 @@
+format: jb-book
+root: intro
+
+parts:
+  - caption: Main Chapters
+    chapters:
+      - file: chapter1
+      - file: chapter2
+
+  - caption: Pre-course
+    numbered: 3
+    chapters:
+      - file: Pre-course/overview
+      - file: Pre-course/setup
+      - file: Pre-course/schedule
+
+  - caption: Combinatorial Explosion
+    chapters:
+      - file: "Combinatorial Explosion/intro to combinatorial explosion"
+        sections:
+          - file: "Combinatorial Explosion/follow along notebook"
+            title: Navigating Combinatorial Explosion
+
+  - caption: Chemical Filters
+    chapters:
+      - file: "Chemical Filters/intro to chemical filters"
+        sections:
+          - file: "Chemical Filters/follow along notebook"
+          - file: "Chemical Filters/example"
+          - file: "Chemical Filters/homework"
+            title: Navigating Chemical Filters in SMACT
+
+  - caption: Compositional Screening
+    chapters:
+      - file: "Compositional Screening/overview"
+      - file: "Compositional Screening/setup"
+      - file: "Compositional Screening/schedule"
+
+  - caption: Stoichiometry Screening
+    chapters:
+      - file: "Stoichiometry Screening/"
+      - file: "Stoichiometry Screening/"
+
+  - caption: Composition to Structure
+    chapters:
+      - file: "Composition to Structure/CHEMELEON"
+      - file: "Composition to Structure/Prediction Vs Generation"
+      - file: "Composition to Structure/Structure Prediction"
+
+files:
+  - file: LICENSE
+  - file: README
+  - file: requirements.txt
+  - file: setup.bat
+  - file: setup.sh
