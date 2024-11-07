@@ -1,5 +1,8 @@
+#TODO: Rebuild this entire toc file
+
 format: jb-book
 root: intro
+# file: intro
 
 parts:
   - caption: Main Chapters
@@ -46,10 +49,10 @@ parts:
       - file: "Composition to Structure/CHEMELEON"
       - file: "Composition to Structure/Prediction Vs Generation"
       - file: "Composition to Structure/Structure Prediction"
-
-files:
-  - file: LICENSE
-  - file: README
-  - file: requirements.txt
-  - file: setup.bat
-  - file: setup.sh
+# Remove or relocate these files - they broke the toc - TODO
+# files:
+#   - file: LICENSE
+#   - file: README
+#   - file: requirements.txt
+#   - file: setup.bat
+#   - file: setup.sh
