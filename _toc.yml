@@ -2,57 +2,72 @@
 
 format: jb-book
 root: intro
-# file: intro
 
 parts:
-  - caption: Main Chapters
-    chapters:
-      - file: chapter1
-      - file: chapter2
-
   - caption: Pre-course
-    numbered: 3
     chapters:
       - file: Pre-course/overview
+        title: Course Overview
       - file: Pre-course/setup
+        title: Setup Instructions
       - file: Pre-course/schedule
+        title: Course Schedule
 
   - caption: Combinatorial Explosion
     chapters:
-      - file: "Combinatorial Explosion/intro to combinatorial explosion"
+      - file: Combinatorial Explosion/intro to combinatorial explosion
+        title: Introduction to Combinatorial Explosion
         sections:
-          - file: "Combinatorial Explosion/follow along notebook"
-            title: Navigating Combinatorial Explosion
+          - file: Combinatorial Explosion/Combinatorial Explosion Tutorial
+            title: Tutorial Notebook
+          - file: Combinatorial Explosion/follow along notebook
+            title: Follow Along Exercise
 
   - caption: Chemical Filters
     chapters:
-      - file: "Chemical Filters/intro to chemical filters"
+      - file: Chemical Filters/intro to chemical filters
+        title: Introduction to Chemical Filters
         sections:
-          - file: "Chemical Filters/follow along notebook"
-          - file: "Chemical Filters/example"
-          - file: "Chemical Filters/homework"
-            title: Navigating Chemical Filters in SMACT
+          - file: Chemical Filters/chemical_filters_tut_version 2
+            title: Tutorial Notebook
+          - file: Chemical Filters/follow along notebook
+            title: Follow Along Exercise
+          - file: Chemical Filters/homework
+            title: Homework Assignment
 
   - caption: Compositional Screening
     chapters:
-      - file: "Compositional Screening/overview"
-      - file: "Compositional Screening/setup"
-      - file: "Compositional Screening/schedule"
+      - file: Compositional Screening/Comp_Screening Final
+        title: Compositional Screening Tutorial
 
   - caption: Stoichiometry Screening
     chapters:
-      - file: "Stoichiometry Screening/"
-      - file: "Stoichiometry Screening/"
+      - file: Stoichiometry Screening/Stoichiometry Screening Notebook
+        title: Stoichiometry Screening Tutorial
 
   - caption: Composition to Structure
     chapters:
-      - file: "Composition to Structure/CHEMELEON"
-      - file: "Composition to Structure/Prediction Vs Generation"
-      - file: "Composition to Structure/Structure Prediction"
-# Remove or relocate these files - they broke the toc - TODO
-# files:
-#   - file: LICENSE
-#   - file: README
-#   - file: requirements.txt
-#   - file: setup.bat
-#   - file: setup.sh
+      - file: Composition to Structure/CHEMELEON/intro
+        title: CHEMELEON Introduction
+      - file: Composition to Structure/Prediction Vs Generation/intro
+        title: Prediction vs Generation
+      - file: Composition to Structure/Structure Prediction/intro
+        title: Structure Prediction
+
+  - caption: Advanced Methods
+    chapters:
+      - file: Advanced Methods/Thermodynamics/intro
+        title: Thermodynamics
+      - file: Advanced Methods/MLFF/intro
+        title: Machine Learning Force Fields
+      - file: Advanced Methods/DFT/intro
+        title: Density Functional Theory
+      - file: Advanced Methods/Synthesisability/intro
+        title: Synthesisability
+
+  - caption: Reference
+    chapters:
+      - file: README
+        title: About This Course
+      - file: LICENSE
+        title: License
