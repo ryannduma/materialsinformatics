@@ -1,5 +1,3 @@
-#TODO: Rebuild this entire toc file
-
 format: jb-book
 root: intro
 
@@ -18,8 +16,6 @@ parts:
       - file: Combinatorial Explosion/intro to combinatorial explosion
         title: Introduction to Combinatorial Explosion
         sections:
-          - file: Combinatorial Explosion/Combinatorial Explosion Tutorial
-            title: Tutorial Notebook
           - file: Combinatorial Explosion/follow along notebook
             title: Follow Along Exercise
 
@@ -28,21 +24,17 @@ parts:
       - file: Chemical Filters/intro to chemical filters
         title: Introduction to Chemical Filters
         sections:
-          - file: Chemical Filters/chemical_filters_tut_version 2
-            title: Tutorial Notebook
           - file: Chemical Filters/follow along notebook
             title: Follow Along Exercise
-          - file: Chemical Filters/homework
-            title: Homework Assignment
 
   - caption: Compositional Screening
     chapters:
-      - file: Compositional Screening/Comp_Screening Final
+      - file: Compositional Screening/follow along notebook
         title: Compositional Screening Tutorial
 
   - caption: Stoichiometry Screening
     chapters:
-      - file: Stoichiometry Screening/Stoichiometry Screening Notebook
+      - file: Stoichiometry Screening/follow along notebook
         title: Stoichiometry Screening Tutorial
 
   - caption: Composition to Structure
@@ -51,8 +43,11 @@ parts:
         title: CHEMELEON Introduction
       - file: Composition to Structure/Prediction Vs Generation/intro
         title: Prediction vs Generation
-      - file: Composition to Structure/Structure Prediction/intro
-        title: Structure Prediction
+      - file: Composition to Structure/Structure Prediction/intro to structure prediction
+        title: Structure Prediction Introduction
+        sections:
+          - file: Composition to Structure/Structure Prediction/follow along notebook
+            title: Structure Prediction Tutorial
 
   - caption: Advanced Methods
     chapters:
