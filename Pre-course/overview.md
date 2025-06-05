@@ -1,6 +1,8 @@
-# Introduction to the Course
+# Materials Informatics Advanced Practical: Course Overview
 
-Welcome to the "Materials Informatics Advanced Practical" course! This course is designed to help you delve into the exciting intersection of materials science, machine learning, and artificial intelligence. You will learn how to leverage computational tools to accelerate the discovery of new materials, focusing primarily on the SMACT (Semiconducting Materials from Analogy and Chemical Theory) toolkit. SMACT offers a collection of rapid screening and informatics tools utilizing chemical element data to facilitate materials exploration.
+Welcome to this comprehensive course on computational materials discovery! In this practical course, you'll learn how to use ml/ai and informatics tools to learn about the materials design process behind batteries, solar cells, catalysts, semiconductors and a variety of other materials applications.
+
+At the heart of this journey is **SMACT** (Semiconducting Materials from Analogy and Chemical Theory), a powerful Python toolkit that enables rapid screening of millions of potential materials using chemical rules and data-driven approaches. You'll also explore cutting-edge AI methods like **CHEMELEON**, which can generate crystal structures from simple text descriptions. With brief advanced walkthroughs into the world of forcefields, and DFT.
 
 ## Course Overview
 
@@ -83,18 +85,20 @@ This course is structured to provide both theoretical knowledge and practical sk
 - Utilize ionic substitution methods for structure prediction.
 - Build and manage structural databases for materials exploration.
 
-### 5.2 Crystal Structure Generation with Chemeleon
+### 5.2 Crystal Structure Generation with CHEMELEON
 
 **Description:**
 
-- Explore **Chemeleon**, a text-guided diffusion model for crystal structure generation.
-- Generate crystal structures using natural language descriptions or specified compositions.
-- Compare Chemeleon's outputs with those from SMACT's structure prediction module.
+- Explore **CHEMELEON**, a state-of-the-art generative AI model that creates crystal structures from text descriptions.
+- Learn how CHEMELEON differs from traditional substitution-based methods by generating structures from scratch.
+- Practice both Crystal Structure Prediction (CSP) for specific formulas and De Novo Generation (DNG) for exploring unknown chemical space.
+- Compare the complementary strengths of SMACT's physics-based approach with CHEMELEON's AI-driven generation.
 
 **Learning Outcomes:**
 
-- Use AI-driven tools for crystal structure generation.
-- Evaluate different structure prediction methodologies.
+- Generate crystal structures using natural language prompts and chemical formulas.
+- Understand the paradigm shift from substitution to generation in materials discovery.
+- Evaluate when to use traditional vs. AI-driven structure prediction methods.
 
 ---
 
@@ -128,30 +132,36 @@ By the end of this course, you will be able to:
 
 ## Course Format
 
-- **Lectures:** Conceptual understanding of machine learning and materials informatics.
-- **Hands-on Coding Sessions:** Practical exercises using SMACT (and Chemeleon).
-- **Interactive Notebooks:** Step-by-step guides to reinforce learning through application.
-- **Discussions:** Collaborative problem-solving and knowledge sharing.
+This is a self-paced practical course built around:
+
+- **Interactive Jupyter Notebooks:** Each topic includes a hands-on notebook with code examples and exercises.
+- **Progressive Learning Path:** Starting from basic chemical screening to advanced AI-driven structure generation.
+- **Real-World Applications:** Examples drawn from battery materials, solar cells, and other energy applications.
+- **Immediate Practice:** Run code locally or in Google Colab to see results in real-time.
 
 ## Prerequisites
 
-- **Basic Chemistry and Materials Science Knowledge:** Understanding of elemental properties and material structures.
-- **Python Programming:** Familiarity with Python programming for hands-on sessions.
-- **Interest in AI Applications:** Enthusiasm for exploring AI and machine learning in materials science.
+- **Basic Chemistry Knowledge:** Understanding of chemical formulas, oxidation states, and crystal structures.
+- **Python Fundamentals:** Ability to run Python scripts, work with lists/dictionaries, and use basic libraries like NumPy.
+- **No ML Experience Required:** We'll introduce machine learning concepts as needed.
+- **Curiosity:** Enthusiasm for learning and applying the skills you learn here in your future materials design workflows.
 
 ## Materials and Resources
 
-- **SMACT Toolkit Documentation:** Guides and tutorials for using SMACT.
-- **Chemeleon Access:** Tools for crystal structure generation.
-- **Supplementary Readings:** Articles and papers on machine learning and materials informatics.
-- **Interactive Notebooks:** Pre-prepared coding environments for practical exercises.
+- **SMACT Toolkit:** [github.com/WMD-group/SMACT](https://github.com/WMD-group/SMACT) - Core screening toolkit
+- **CHEMELEON:** [github.com/hspark1212/chemeleon-dng](https://github.com/hspark1212/chemeleon-dng) - AI structure generation
+- **Materials Project API:** Access to experimental crystal structure data
+- **Course Repository:** All notebooks, data files, and setup scripts
+- **Key Papers:** Referenced throughout with DOI links for deeper understanding
 
-## Assessment
+## How to Use This Course
 
-- **Participation:** Active involvement in lectures and hands-on sessions.
-- **Assignments:** Regular tasks to apply concepts learned.
-- **Projects:** A final project involving the application of course concepts to a materials discovery problem.
+1. **Start with Setup:** Follow the setup instructions to install all required tools.
+2. **Work Through Topics Sequentially:** Each topic builds on the previous ones.
+3. **Run All Code Examples:** Understanding comes from doing - run and modify the examples.
+4. **Complete the Exercises:** Each notebook includes exercises to reinforce learning.
+5. **Explore Your Own Ideas:** Use the tools to investigate materials relevant to your interests.
 
 ---
 
-We look forward to guiding you through this exciting journey at the forefront of materials science and artificial intelligence. Let's embark on the path to discovering new materials together!
+If you have any questions, dont hesitate to reach out and if there's any issues with the notebooks drop Ry an email - napo.nduma22@imperial.ac.uk

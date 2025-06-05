@@ -1,29 +1,43 @@
-# Introduction to Chemical Filters
+# Chemical Filters: Separating Science from Fiction
 
-Chemical filters are essential tools in materials informatics that help us narrow down the vast chemical space of possible materials to those that are likely to be stable and synthesizable. This section will introduce you to:
+In the previous section, we saw how combinatorial explosion creates trillions of possible materials - but we also saw how SMACT reduced this number dramatically. How does it know which combinations to keep and which to discard? The answer lies in **chemical filters** - rules based on fundamental chemistry that eliminate impossible or unlikely combinations.
 
-1. Basic principles of chemical filtering
-2. Implementation of filters in SMACT
-3. Common filtering criteria:
-   - Charge neutrality
-   - Electronegativity ordering
-   - Oxidation state compatibility
-   - Size factors
-   - Electronic configuration
+Think of chemical filters as your first line of defense against the vastness of chemical space. They're like a sieve that lets through only the materials that make chemical sense, saving you from wasting time on combinations like Na₁₀Cl (impossible stoichiometry) or elements that simply don't bond together.
 
-## Learning Objectives
+## The Science Behind the Filters
 
-After completing this section, you will be able to:
+Chemical filters are based on well-established principles:
 
-- Understand the importance of chemical filtering in materials discovery
-- Apply basic chemical rules to screen material compositions
-- Use SMACT's chemical filtering capabilities
-- Evaluate the effectiveness of different filtering criteria
+### 1. **Charge Neutrality**
+Every stable compound must be electrically neutral. If we have Na⁺¹ and Cl⁻¹, we need equal amounts. This simple rule eliminates millions of impossible combinations.
 
-## Section Contents
+### 2. **Electronegativity Ordering** 
+More electronegative elements tend to take electrons (become negative), while less electronegative elements give them up (become positive). This helps predict which oxidation states are reasonable.
 
-1. **Tutorial Notebook**: A comprehensive guide to chemical filtering concepts and implementation
-2. **Follow Along Exercise**: Practice applying chemical filters to real materials systems
-3. **Homework Assignment**: Test your understanding with practical exercises
+### 3. **Oxidation State Compatibility**
+Not all oxidation states are equally common or stable. Fe³⁺ is much more common than Fe⁶⁺, and some oxidation states (like Na⁻⁵) are impossible.
 
-Let's begin by exploring the fundamental concepts in the tutorial notebook.
+### 4. **Size and Coordination Factors**
+Very large and very small atoms often don't fit together well in crystal structures, ruling out certain combinations.
+
+### 5. **Electronic Configuration Rules**
+Some combinations are favored by electronic structure (like achieving noble gas configurations).
+
+## What You'll Learn
+
+In this section, we'll explore:
+- How each filter works and why it matters
+- How to implement these filters using SMACT
+- How to combine multiple filters for maximum effectiveness
+- How to evaluate which filters are most important for your application
+- Real examples showing dramatic space reduction through intelligent filtering
+
+## Building on Previous Knowledge
+
+You've already seen chemical filters in action in the Combinatorial Explosion section - now we'll dive deeper into the chemistry behind them and learn how to apply them systematically to your own materials discovery projects.
+
+## The Power of Intelligent Screening
+
+By the end of this section, you'll understand how a few simple chemical rules can reduce a search space of trillions to thousands of promising candidates. This isn't just mathematics - it's chemistry guiding computation to focus on the materials that nature actually allows.
+
+Ready to dive into the chemistry? Let's explore how these filters work in practice!

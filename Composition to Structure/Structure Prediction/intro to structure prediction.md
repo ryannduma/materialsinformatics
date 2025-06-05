@@ -1,177 +1,110 @@
-# SMACT Structure Prediction Module
+# From Composition to Structure: The SMACT Approach
 
-This module provides tools for predicting new crystal structures based on ionic substitutions, implementing the methodology described in:
+You've mastered the art of finding chemically viable compositions through combinatorial screening and intelligent filtering. But here's the next challenge: **How do you predict what crystal structure those compositions will adopt?**
+
+This is where **structure prediction** becomes crucial. Having a composition like "LiCoO₂" tells you the recipe - but will it form a layered structure (good for batteries) or a spinel structure (different properties)? The crystal structure determines the material's properties.
+
+## The Challenge of Structure Prediction
+
+Traditional structure prediction is extremely difficult:
+- **Quantum mechanical calculations** are accurate but computationally expensive
+- **Crystal structure databases** only contain known materials
+- **Experimental synthesis** is time-consuming and may not work
+- **Pure guessing** has astronomically low success rates
+
+We need smarter approaches that leverage existing knowledge to predict new structures.
+
+## SMACT's Substitution-Based Approach
+
+SMACT's structure prediction module takes a data-driven approach based on a simple but powerful idea:
+
+> **"Similar ions can often substitute for each other in crystal structures"**
+
+If we know that Na⁺ and K⁺ behave similarly (both large, singly-charged cations), then we can predict that compounds like KCl might adopt the same structure as NaCl.
+
+This approach is based on the methodology from Hautier et al., who showed that ionic substitution patterns can be learned from databases and used to predict new materials:
 
 > Hautier, G., Fischer, C., Ehrlacher, V., Jain, A., and Ceder, G. (2011)  
 > Data Mined Ionic Substitutions for the Discovery of New Compounds.  
-> Materials Chemistry, ChemRxiv, 2024.  
-> [doi:10.26434/chemrxiv-2024-rw8p5](https://doi.org/10.26434/chemrxiv-2024-rw8p5)
+> Inorganic Chemistry, 50(2), 656-663.  
+> [doi:10.1021/ic102031h](https://pubs.acs.org/doi/10.1021/ic102031h)
 
-## Overview
+## How It Works: The Substitution Strategy
 
-The structure prediction module enables the prediction of new crystal structures through statistical analysis of known structures and ionic substitutions. It uses a database of known structures (typically from ICSD via the Materials Project) and a probability model for ionic substitutions to suggest new, potentially stable compounds.
+The SMACT approach works in several steps:
 
-## Module Components
+### 1. **Build a Structure Database**
+- Import known crystal structures from Materials Project/ICSD
+- Create a searchable database of structure-composition relationships
+- Focus on the most reliable, experimentally-validated structures
 
-### 1. Structure Module (`structure.py`)
+### 2. **Learn Substitution Patterns**
+- Analyze which ionic substitutions occur frequently in nature
+- Build probability models based on ionic size, charge, and electronegativity
+- Create "lambda tables" that encode substitution likelihoods
 
-The core module containing the `SmactStructure` class, which provides a minimalist structure representation for manipulation and analysis.
+### 3. **Predict New Structures**
+- Take your target composition (e.g., from previous screening steps)
+- Find similar compositions in the database
+- Apply substitution rules to predict likely crystal structures
+- Rank predictions by probability
 
-Key features:
-- POSCAR-style structure specification
-- Integration with Materials Project
-- Structure manipulation and analysis tools
-- Conversion to/from pymatgen structures
+### 4. **Validate and Refine**
+- Check chemical reasonableness of predictions
+- Calculate formation energies if needed
+- Provide confidence estimates based on similarity to known materials
 
-Main functions:
-- `from_file()`: Create structure from POSCAR file
-- `from_mp()`: Create structure from Materials Project data
-- `from_py_struct()`: Convert from pymatgen structure
-- `composition()`: Generate composition string
-- `as_poscar()`: Convert to POSCAR format
-- `as_py_struct()`: Convert to pymatgen structure
+## What Makes This Powerful
 
-### 2. Mutation Module (`mutation.py`)
+This approach offers several advantages:
 
-Contains the `CationMutator` class for handling species substitutions in crystal structures.
+- **Speed**: Much faster than ab initio crystal structure prediction
+- **Chemical intuition**: Based on real substitution patterns from nature
+- **Integration**: Works seamlessly with composition screening results
+- **Interpretability**: You can understand why a structure was predicted
+- **Scalability**: Can screen thousands of compositions quickly
 
-Key features:
-- Lambda table management for substitution probabilities
-- Structure mutation operations
-- Probability calculations for substitutions
+## Building Toward CHEMELEON
 
-Main functions:
-- `from_json()`: Create mutator from JSON lambda table
-- `sub_prob()`: Calculate substitution probability
-- `cond_sub_prob()`: Calculate conditional substitution probability
-- `unary_substitute()`: Generate structures with single substitutions
-- `_mutate_structure()`: Perform species mutation
-- `_nary_mutate_structure()`: Perform multiple species mutations
+The SMACT structure prediction approach represents the "classical" way of doing computational materials discovery:
+- Start with known structures
+- Apply chemical rules and statistical analysis
+- Make incremental improvements through substitution
 
-### 3. Prediction Module (`prediction.py`)
+But what if we could go beyond incremental changes? What if we could generate entirely new crystal structures from scratch? This is where **CHEMELEON** comes in - representing the next generation of AI-driven structure generation.
 
-Implements the `StructurePredictor` class for generating new structure predictions.
+## What You'll Learn
 
-Key features:
-- Structure prediction based on statistical analysis
-- Support for single and multiple species substitutions
-- Probability thresholding for predictions
+In this section, we'll explore:
 
-Main functions:
-- `predict_structs()`: Predict structures for given species
-- `nary_predict_structs()`: Predict structures with multiple substitutions
+### Practical Skills
+- How to set up and use SMACT's structure prediction module
+- Building and querying structure databases
+- Implementing ionic substitution models
+- Generating and ranking structure predictions
 
-### 4. Database Module (`database.py`)
+### Conceptual Understanding
+- The principles behind substitution-based prediction
+- How to interpret and validate predictions
+- When this approach works well (and when it doesn't)
+- How traditional methods prepare us for AI approaches
 
-Provides the `StructureDB` class for managing structure databases.
+### Real Applications
+- Predicting structures for battery materials
+- Finding new phases in known chemical systems
+- Screening large numbers of compositions for structure types
+- Preparing inputs for more detailed computational studies
 
-Key features:
-- SQLite database interface
-- Materials Project integration
-- Parallel processing support
+## Integration with Previous Learning
 
-Main functions:
-- `add_mp_icsd()`: Add Materials Project ICSD structures
-- `add_struct()`: Add single structure
-- `add_structs()`: Add multiple structures
-- `get_structs()`: Retrieve structures by composition
-- `get_with_species()`: Retrieve structures containing specific species
+This section builds directly on everything you've learned:
+- **Combinatorial Explosion**: Showed us the scale of chemical space
+- **Chemical Filters**: Taught us to eliminate impossible combinations
+- **Compositional/Stoichiometry Screening**: Generated viable compositions
+- **Structure Prediction**: Now predicts crystal structures for those compositions
 
-### 5. Probability Models Module (`probability_models.py`)
+## The Path Forward
 
-Contains models for calculating substitution probabilities.
+By the end of this section, you'll have solid grounding in traditional structure prediction methods. This foundation is essential for understanding and appreciating the revolutionary approaches that CHEMELEON brings to the field.
 
-Key features:
-- Base `SubstitutionModel` class
-- `RadiusModel` implementation using Shannon radii
-
-Main functions:
-- `sub_prob()`: Calculate substitution probability
-- `gen_lambda()`: Generate lambda table
-
-### 6. Utilities Module (`utilities.py`)
-
-Provides helper functions for data parsing and manipulation.
-
-Key functions:
-- `parse_spec()`: Parse species string
-- `unparse_spec()`: Convert species tuple to string
-- `get_sign()`: Get string representation of charge sign
-
-## Usage Examples
-
-### Basic Structure Creation
-```python
-from smact.structure_prediction import SmactStructure
-
-# Create from POSCAR file
-structure = SmactStructure.from_file("path/to/POSCAR")
-
-# Create from Materials Project
-structure = SmactStructure.from_mp(
-    species=[("Fe", 2), ("O", -2)],
-    api_key="YOUR_MP_API_KEY"
-)
-```
-
-### Structure Prediction
-```python
-from smact.structure_prediction import (
-    StructurePredictor,
-    CationMutator,
-    StructureDB
-)
-
-# Initialize components
-mutator = CationMutator.from_json()
-db = StructureDB("structures.db")
-predictor = StructurePredictor(mutator, db, "structures")
-
-# Predict structures
-species = [("Fe", 2), ("O", -2)]
-predictions = predictor.predict_structs(
-    species,
-    thresh=1e-3,
-    include_same=True
-)
-
-# Process predictions
-for structure, probability, parent in predictions:
-    print(f"Predicted structure with probability: {probability}")
-    print(structure.as_poscar())
-```
-
-### Database Management
-```python
-from smact.structure_prediction import StructureDB
-
-# Create database
-db = StructureDB("structures.db")
-
-# Add Materials Project structures
-num_added = db.add_mp_icsd(
-    table="icsd_structures",
-    mp_api_key="YOUR_MP_API_KEY"
-)
-
-# Retrieve structures
-structures = db.get_with_species(
-    species=[("Fe", 2), ("O", -2)],
-    table="icsd_structures"
-)
-```
-
-## Installation
-
-The module requires the following dependencies:
-- pymatgen
-- numpy
-- pandas
-- pathos (optional, for parallel processing)
-
-## Notes
-
-- The module uses Shannon radii data for the default probability model
-- Parallel processing is available when pathos is installed
-- API keys for Materials Project are required for MP integration
-- The database can be memory-based (":memory:") or file-based
+Ready to predict your first crystal structure? Let's dive into the world of ionic substitutions and data-driven prediction!

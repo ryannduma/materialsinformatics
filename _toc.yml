@@ -8,8 +8,6 @@ parts:
         title: Course Overview
       - file: Pre-course/setup
         title: Setup Instructions
-      - file: Pre-course/schedule
-        title: Course Schedule
 
   - caption: Combinatorial Explosion
     chapters:
@@ -29,25 +27,32 @@ parts:
 
   - caption: Compositional Screening
     chapters:
-      - file: Compositional Screening/follow along notebook
-        title: Compositional Screening Tutorial
+      - file: Compositional Screening/intro
+        title: Introduction to Compositional Screening
+        sections:
+          - file: Compositional Screening/follow along notebook
+            title: Follow Along Exercise
 
   - caption: Stoichiometry Screening
     chapters:
-      - file: Stoichiometry Screening/follow along notebook
-        title: Stoichiometry Screening Tutorial
+      - file: Stoichiometry Screening/intro
+        title: Introduction to Stoichiometry Screening
+        sections:
+          - file: Stoichiometry Screening/follow along notebook
+            title: Follow Along Exercise
 
   - caption: Composition to Structure
     chapters:
-      - file: Composition to Structure/CHEMELEON/intro
-        title: CHEMELEON Introduction
-      - file: Composition to Structure/Prediction Vs Generation/intro
-        title: Prediction vs Generation
       - file: Composition to Structure/Structure Prediction/intro to structure prediction
-        title: Structure Prediction Introduction
+        title: Traditional Structure Prediction
         sections:
           - file: Composition to Structure/Structure Prediction/follow along notebook
-            title: Structure Prediction Tutorial
+            title: Follow Along Exercise
+      - file: Composition to Structure/CHEMELEON/intro
+        title: AI-Powered Structure Generation
+        sections:
+          - file: Composition to Structure/CHEMELEON/follow along notebook
+            title: Follow Along Exercise
 
   - caption: Advanced Methods
     chapters:
