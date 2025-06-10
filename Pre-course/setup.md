@@ -1,13 +1,13 @@
 # Setup Instructions
 
-This guide will help you set up your computational environment for the Materials Informatics course. We'll install SMACT, CHEMELEON, and all necessary dependencies.
+This guide will help you set up your computational environment for the Materials Informatics course. We'll install SMACT, Chemeleon, and all necessary dependencies.
 
 ## What You'll Be Installing
 
 - **SMACT**: The core toolkit for materials screening and structure prediction
-- **CHEMELEON**: AI-powered crystal structure generation tool
+- **Chemeleon**: AI-powered crystal structure generation tool
 - **Jupyter**: For running interactive notebooks
-- **Supporting Libraries**: NumPy, SciPy, pymatgen, pandas, and visualization tools
+- **Supporting Libraries**: NumPy, SciPy, pymatgen, pandas, and visualisation tools
 - **Development Tools**: Pre-commit hooks for code quality (optional)
 
 ## Prerequisites
@@ -83,7 +83,7 @@ pip install -e .
 cd ..
 ```
 
-### 4. Install CHEMELEON (Optional but Recommended)
+### 4. Install Chemeleon (Optional but Recommended)
 
 ```bash
 # Clone the repository
@@ -113,9 +113,9 @@ python -c "import smact; print(f'SMACT {smact.__version__} installed successfull
 # Check key dependencies
 python -c "import numpy, pandas, pymatgen, jupyter; print('All core dependencies installed')"
 
-# Check if CHEMELEON is available
-python -c "try: import chemeleon_dng; print('CHEMELEON installed successfully')
-except: print('CHEMELEON not installed (optional)')"
+# Check if Chemeleon is available
+python -c "try: import chemeleon_dng; print('Chemeleon installed successfully')
+except: print('Chemeleon not installed (optional)')"
 ```
 
 ## Materials Project API Key
@@ -161,7 +161,7 @@ Navigate to any of the course notebooks and start learning!
 - Make sure your virtual environment is activated
 - Try reinstalling the package that's failing to import
 
-**4. CHEMELEON Model Download Issues**
+**4. Chemeleon Model Download Issues**
 - The first run will download pretrained models (~500MB)
 - Ensure you have a stable internet connection
 - Models are cached after first download

@@ -1,21 +1,19 @@
 # Materials Informatics Advanced Practical: Course Overview
 
-Welcome to this comprehensive course on computational materials discovery! In this practical course, you'll learn how to use ml/ai and informatics tools to learn about the materials design process behind batteries, solar cells, catalysts, semiconductors and a variety of other materials applications.
+Welcome to this small practical course on computational materials design! In this course, you'll learn how to use ml/ai and informatics tools to learn about the materials design process with relevant examples enhancing your understanding behind how batteries, solar cells, catalysts, semiconductors and a variety of other materials applications can be designed virtually before being synthesised and utilised in the real world.
 
-At the heart of this journey is **SMACT** (Semiconducting Materials from Analogy and Chemical Theory), a powerful Python toolkit that enables rapid screening of millions of potential materials using chemical rules and data-driven approaches. You'll also explore cutting-edge AI methods like **CHEMELEON**, which can generate crystal structures from simple text descriptions. With brief advanced walkthroughs into the world of forcefields, and DFT.
+At the heart of this journey is **SMACT** (Semiconducting Materials from Analogy and Chemical Theory), a powerful Python toolkit that enables rapid screening of millions of potential materials using chemical rules and data-driven approaches. You'll also explore cutting-edge AI methods like **Chemeleon**, which can generate crystal structures from simple text descriptions. The course culminates with comprehensive tutorials on advanced computational methods including **MACE** (machine learning force fields) and **Density Functional Theory**, providing you with a complete toolkit for modern materials research.
 
 ## Course Overview
 
 This course is structured to provide both theoretical knowledge and practical skills in materials informatics. Below is an overview of the key topics we will cover:
 
 ---
-
 ## 1. Combinatorial Explosion and Chemical Space Generation
-
 **Description:**
 
 - Understand the concept of combinatorial explosion in materials science and its implications for materials discovery.
-- Utilize SMACT's capabilities to generate extensive lists of elemental compositions.
+- Utilise SMACT's capabilities to generate extensive lists of elemental compositions.
 - Prepare these compositions as inputs for machine learning models and other screening workflows.
 
 **Learning Outcomes:**
@@ -51,7 +49,7 @@ This course is structured to provide both theoretical knowledge and practical sk
 **Learning Outcomes:**
 
 - Perform targeted compositional screenings.
-- Analyze and interpret phase diagrams for material selection.
+- Analyse and interpret phase diagrams for material selection.
 
 ---
 
@@ -60,7 +58,7 @@ This course is structured to provide both theoretical knowledge and practical sk
 **Description:**
 
 - Explore methods to find compounds that satisfy specific stoichiometries (e.g., perovskite **ABX₃**).
-- Utilize a modified SMACT filter function to identify such compounds.
+- Utilise a modified SMACT filter function to identify such compounds.
 - Assess the potential of these compounds for further study.
 
 **Learning Outcomes:**
@@ -82,22 +80,22 @@ This course is structured to provide both theoretical knowledge and practical sk
 
 **Learning Outcomes:**
 
-- Utilize ionic substitution methods for structure prediction.
+- Utilise ionic substitution methods for structure prediction.
 - Build and manage structural databases for materials exploration.
 
-### 5.2 Crystal Structure Generation with CHEMELEON
+### 5.2 Crystal Structure Generation with Chemeleon
 
 **Description:**
 
-- Explore **CHEMELEON**, a state-of-the-art generative AI model that creates crystal structures from text descriptions.
-- Learn how CHEMELEON differs from traditional substitution-based methods by generating structures from scratch.
+- Explore **Chemeleon**, a modern generative AI model that creates crystal structures from text descriptions.
+- Learn how Chemeleon differs from traditional substitution-based methods by generating structures from scratch.
 - Practice both Crystal Structure Prediction (CSP) for specific formulas and De Novo Generation (DNG) for exploring unknown chemical space.
-- Compare the complementary strengths of SMACT's physics-based approach with CHEMELEON's AI-driven generation.
+- Compare the complementary strengths of SMACT's physics-based approach with Chemeleon's AI-driven generation.
 
 **Learning Outcomes:**
 
 - Generate crystal structures using natural language prompts and chemical formulas.
-- Understand the paradigm shift from substitution to generation in materials discovery.
+- Understand the shift from substitution to generation in materials discovery.
 - Evaluate when to use traditional vs. AI-driven structure prediction methods.
 
 ---
@@ -106,15 +104,17 @@ This course is structured to provide both theoretical knowledge and practical sk
 
 **Description:**
 
-- Dive into advanced topics through interactive notebooks.
-- Understand the thermodynamics of materials and their role in materials discovery.
-- Explore Machine Learning Force Fields for simulating material properties.
-- Get introduced to Density Functional Theory (DFT) calculations.
-- Discuss synthesisability and practical considerations in material synthesis.
+- Dive into advanced topics through comprehensive documentation and tutorials.
+- **Density Functional Theory (DFT):** Understand the theoretical foundations of quantum mechanical calculations with detailed guides on DFT theory and VASP capabilities.
+- **Machine Learning Force Fields:** Explore MACE (Multi-Atomic Cluster Expansion) through practical tutorials and theoretical explanations, learning how to achieve DFT-level accuracy at classical simulation speeds.
+- **Thermodynamics:** Understand the role of thermodynamic principles in materials discovery.
+- **Synthesisability:** Discuss practical considerations in material synthesis.
 
 **Learning Outcomes:**
 
 - Apply advanced computational methods to materials science problems.
+- Understand when to use DFT (VASP) versus machine learning approaches (MACE).
+- Set up and run MACE simulations for rapid materials screening.
 - Integrate thermodynamic principles with machine learning approaches.
 
 ---
@@ -123,10 +123,10 @@ This course is structured to provide both theoretical knowledge and practical sk
 
 By the end of this course, you will be able to:
 
-- **Generate and Analyze Chemical Spaces:** Efficiently create large chemical composition datasets and analyze them using SMACT.
+- **Generate and Analyse Chemical Spaces:** Efficiently create large chemical composition datasets and analyse them using SMACT.
 - **Apply Chemical Filters:** Implement chemical filtering techniques to narrow down potential material candidates.
 - **Perform Compositional and Stoichiometry Screening:** Conduct targeted screenings to identify promising materials based on composition and stoichiometry.
-- **Utilize Structure Prediction Tools:** Predict and generate crystal structures using SMACT and Chemeleon.
+- **Utilise Structure Prediction Tools:** Predict and generate crystal structures using SMACT and Chemeleon.
 - **Understand Advanced Computational Methods:** Grasp the basics of thermodynamics, Machine Learning Force Fields, DFT, and synthesisability in the context of materials science.
 - **Integrate Machine Learning Techniques:** Apply machine learning algorithms to materials informatics workflows.
 
@@ -149,7 +149,7 @@ This is a self-paced practical course built around:
 ## Materials and Resources
 
 - **SMACT Toolkit:** [github.com/WMD-group/SMACT](https://github.com/WMD-group/SMACT) - Core screening toolkit
-- **CHEMELEON:** [github.com/hspark1212/chemeleon-dng](https://github.com/hspark1212/chemeleon-dng) - AI structure generation
+- **Chemeleon:** [github.com/hspark1212/chemeleon-dng](https://github.com/hspark1212/chemeleon-dng) - AI structure generation
 - **Materials Project API:** Access to experimental crystal structure data
 - **Course Repository:** All notebooks, data files, and setup scripts
 - **Key Papers:** Referenced throughout with DOI links for deeper understanding
@@ -164,4 +164,4 @@ This is a self-paced practical course built around:
 
 ---
 
-If you have any questions, dont hesitate to reach out and if there's any issues with the notebooks drop Ry an email - napo.nduma22@imperial.ac.uk
+If you have any questions, don't hesitate to reach out and if there are any issues with the notebooks drop Ry an email - napo.nduma22@imperial.ac.uk

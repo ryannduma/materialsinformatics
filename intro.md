@@ -3,6 +3,9 @@
 # Welcome! 👋
 
 Welcome to the "Materials Informatics Advanced Practical" course! This course is designed to help you delve into the exciting intersection of materials science, machine learning, and artificial intelligence. You will learn how to leverage computational tools to accelerate the discovery of new materials, focusing primarily on the SMACT (Semiconducting Materials from Analogy and Chemical Theory) toolkit. SMACT offers a collection of rapid screening and informatics tools utilizing chemical element data to facilitate materials exploration.
+
+Beyond SMACT, this course provides comprehensive coverage of advanced computational methods including Machine Learning Force Fields (MACE) and Density Functional Theory (DFT), giving you a complete toolkit for modern materials research. Whether you're screening millions of compositions, generating crystal structures with AI, or running quantum mechanical simulations, this course has you covered.
+
 This website is intended to be an _interactive_ one-stop-shop where you can access all of the educational materials we'll be using in the course.
 
 ## Navigating the curriculum

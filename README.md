@@ -10,7 +10,10 @@ This course covers:
 - Chemical filtering techniques
 - Compositional and stoichiometry screening
 - Structure prediction and generation
-- Advanced computational methods
+- Advanced computational methods including:
+  - Machine Learning Force Fields (MACE)
+  - Density Functional Theory (DFT)
+  - VASP computational framework
 
 ## Repository Structure
 
@@ -21,6 +24,8 @@ This course covers:
 - `Stoichiometry Screening/`: Structure-based screening
 - `Composition to Structure/`: Prediction and generation methods
 - `Advanced Methods/`: Advanced computational techniques
+  - `DFT/`: Density Functional Theory fundamentals and VASP overview
+  - `MLFF/`: Machine Learning Force Fields with MACE tutorials
 
 ## Getting Started
 

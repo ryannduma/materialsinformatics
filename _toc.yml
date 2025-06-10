@@ -60,8 +60,18 @@ parts:
         title: Thermodynamics
       - file: Advanced Methods/MLFF/intro
         title: Machine Learning Force Fields
+        sections:
+          - file: Advanced Methods/MLFF/mace_tutorial
+            title: MACE Tutorial
+          - file: Advanced Methods/MLFF/mace_theory
+            title: MACE Theory
       - file: Advanced Methods/DFT/intro
         title: Density Functional Theory
+        sections:
+          - file: Advanced Methods/DFT/dft_theory
+            title: DFT Theory
+          - file: Advanced Methods/DFT/vasp_overview
+            title: VASP Overview
       - file: Advanced Methods/Synthesisability/intro
         title: Synthesisability
 

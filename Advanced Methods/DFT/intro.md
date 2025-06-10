@@ -7,7 +7,7 @@ This section provides an introduction to Density Functional Theory (DFT) and its
 After completing this section, you will be able to:
 
 1. Understand the fundamental principles of DFT
-2. Recognize different types of exchange-correlation functionals
+2. Recognise different types of exchange-correlation functionals
 3. Set up and run basic DFT calculations
 4. Interpret DFT results for materials properties
 
@@ -32,4 +32,14 @@ After completing this section, you will be able to:
    - Optical Properties
    - Mechanical Properties
 
-Let's dive into the quantum mechanical approach to materials modeling. 
+## Available Resources
+
+### Comprehensive Documentation
+We provide detailed resources to help you understand DFT and its practical applications:
+
+- **[DFT Theory](dft_theory.md)**: Comprehensive guide to the theoretical foundations of density functional theory
+- **[VASP Overview](vasp_overview.md)**: Understanding VASP capabilities and how it compares with machine learning methods like MACE
+
+These resources will give you a solid foundation in ab initio calculations and help you understand when to use DFT versus machine learning approaches.
+
+Let's dive into the quantum mechanical approach to materials modelling. 

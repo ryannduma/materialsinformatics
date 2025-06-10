@@ -30,4 +30,14 @@ After completing this section, you will be able to:
    - Property Prediction
    - High-Throughput Screening
 
-Let's explore how machine learning is revolutionizing molecular simulation. 
+## Available Resources
+
+### MACE (Multi-Atomic Cluster Expansion)
+We provide comprehensive documentation for MACE, a state-of-the-art machine learning force field:
+
+- **[MACE Tutorial](mace_tutorial.md)**: Step-by-step guide to installation, usage, and training
+- **[MACE Theory](mace_theory.md)**: Deep dive into the theoretical foundations and architecture
+
+These resources will help you understand and apply modern machine learning force fields to accelerate your materials research.
+
+Let's explore how machine learning is revolutionising molecular simulation. 

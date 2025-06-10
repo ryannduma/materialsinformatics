@@ -77,3 +77,25 @@ The course is organized into modules, each containing:
 - The project uses Ruff for Python code formatting and linting
 - API keys (like Materials Project) should be stored in `assets/files/mp_api_key.txt`, never in code
 - When modifying notebooks, ensure they work both locally and on Google Colab
+
+## Code Style Guidelines
+
+### Language and Spelling
+- **British English**: All content, comments, documentation, and output messages must use British English spelling and terminology
+- Examples: "colour" not "color", "analyse" not "analyze", "optimise" not "optimize", "centre" not "center"
+- Use British terminology: "whilst" instead of "while", "amongst" instead of "among" where appropriate
+
+### Tone and Style
+- **Natural and engaging**: Write in a conversational yet professional tone that feels natural to read
+- **Grounded approach**: Avoid hyperbole, exaggerations, or overly enthusiastic language
+- **Balanced enthusiasm**: Show genuine interest in the subject matter without being overly excited
+- **Educational focus**: Maintain clarity and accessibility while keeping content intellectually honest
+- Examples of what to avoid: "Amazing!", "Incredible!", "Mind-blowing!", excessive exclamation marks
+- Examples of good tone: "This approach works well", "An effective method", "This demonstrates clearly"
+
+### Emojis and Output Formatting
+- **NO EMOJIS in code**: Do not use emojis in print statements, comments, or any generated code
+- Use clear, professional text for all output messages
+- Example of what NOT to do: `print("✓ Success!")` 
+- Example of what to do: `print("Success!")` or `print("PASSED: Test completed successfully")`
+- Keep all code output clean and professional for educational content

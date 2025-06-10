@@ -1,6 +1,6 @@
 # Stoichiometry Screening: Getting the Ratios Right
 
-You've learned to navigate vast chemical spaces, apply intelligent filters, and map entire compositional systems. Now comes a crucial question: **Once you know which elements to combine, how many atoms of each should you use?**
+You've learnt to navigate vast chemical spaces, apply intelligent filters, and map entire compositional systems. Now comes a crucial question: **Once you know which elements to combine, how many atoms of each should you use?**
 
 This is where **stoichiometry screening** comes in - the systematic exploration of different atomic ratios to find chemically viable compounds.
 
@@ -42,7 +42,7 @@ In this section, we'll explore:
 ### 1. **Systematic Stoichiometry Generation**
 - How to enumerate all possible atomic ratios
 - Setting reasonable limits on stoichiometric coefficients
-- Organizing the search space efficiently
+- Organising the search space efficiently
 
 ### 2. **Chemical Validation Rules**
 - Charge neutrality: Why CuO works but Cu₃O₇ doesn't
@@ -85,7 +85,7 @@ Stoichiometry screening can reduce your experimental workload dramatically:
 By the end of this section, you'll have the tools to:
 - Systematically explore stoichiometric spaces for any element combination
 - Apply evidence-based chemical rules to validate compositions
-- Visualize results with interactive plots and grids
+- Visualise results with interactive plots and grids
 - Integrate your findings with experimental and computational workflows
 
-Ready to master the art of atomic ratios? Let's dive into systematic stoichiometry screening!
+Ready to master the art of atomic ratios? Check out the stoichiometry screening follow along!
