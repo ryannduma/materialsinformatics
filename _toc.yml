@@ -43,7 +43,7 @@ parts:
 
   - caption: Composition to Structure
     chapters:
-      - file: Composition to Structure/Structure Prediction/intro to structure prediction
+      - file: Composition to Structure/Structure Prediction/intro
         title: Traditional Structure Prediction
         sections:
           - file: Composition to Structure/Structure Prediction/follow along notebook

@@ -56,22 +56,32 @@ The SMACT approach works in several steps:
 
 ## What Makes This Powerful
 
-This approach offers several advantages:
+The substitution-based approach offers several advantages:
 
 - **Speed**: Much faster than ab initio crystal structure prediction
-- **Chemical intuition**: Based on real substitution patterns from nature
+- **Chemical intuition**: Based on real substitution patterns observed in nature
+- **Reliability**: Predictions are grounded in experimentally-validated structures
 - **Integration**: Works seamlessly with composition screening results
-- **Interpretability**: You can understand why a structure was predicted
+- **Interpretability**: You can understand exactly why a structure was predicted
 - **Scalability**: Can screen thousands of compositions quickly
 
-## Building Toward CHEMELEON
+However, this approach also has important limitations:
+
+- **Conservative**: Can only predict structures similar to known materials
+- **Database dependency**: Limited by the quality and coverage of your structure database
+- **Incremental discovery**: Unlikely to find radically new structural motifs
+- **Substitution rules**: Bound by statistical patterns that may not capture all possibilities
+
+## Building Toward Chemeleon
 
 The SMACT structure prediction approach represents the "classical" way of doing computational materials discovery:
 - Start with known structures
 - Apply chemical rules and statistical analysis
 - Make incremental improvements through substitution
 
-But what if we could go beyond incremental changes? What if we could generate entirely new crystal structures from scratch? This is where **CHEMELEON** comes in - representing the next generation of AI-driven structure generation.
+This approach works well when you want to explore variations of existing materials, but it has fundamental limitations. You can only predict structures that are chemically similar to what already exists in your database.
+
+What if we could go beyond incremental changes? What if we could generate entirely new crystal structures from scratch, guided only by chemical intuition and text descriptions? This is where **Chemeleon** comes in - representing a revolutionary AI-driven approach to structure generation that can explore vast regions of chemical space not accessible through substitution methods.
 
 ## What You'll Learn
 
@@ -105,6 +115,6 @@ This section builds directly on everything you've learned:
 
 ## The Path Forward
 
-By the end of this section, you'll have solid grounding in traditional structure prediction methods. This foundation is essential for understanding and appreciating the revolutionary approaches that CHEMELEON brings to the field.
+By the end of this section, you'll have solid grounding in traditional structure prediction methods. This foundation is essential for understanding and appreciating the revolutionary approaches that Chemeleon brings to the field.
 
-Ready to predict your first crystal structure? Let's dive into the world of ionic substitutions and data-driven prediction!
+Let's get started exploring the world of ionic substitutions and data-driven prediction!
