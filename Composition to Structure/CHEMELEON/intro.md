@@ -2,7 +2,7 @@
 
 In the previous section, we explored structure prediction using SMACT's statistical approach based on ionic substitutions. This method works well for finding variations of existing materials but is fundamentally limited to incremental changes based on known structures.
 
-**Chemeleon** represents a paradigm shift in crystal structure discovery. Rather than starting with existing structures and making substitutions, Chemeleon uses generative artificial intelligence to create entirely new crystal structures from scratch, guided only by text descriptions.
+**Chemeleon** represents a shift in crystal structure exploration. Rather than starting with existing structures and making substitutions, Chemeleon uses generative artificial intelligence to create entirely new crystal structures from scratch, guided only by text descriptions.
 
 ## The Difference
 
@@ -133,7 +133,7 @@ Whilst Chemeleon is powerful, it's important to understand its limitations:
 - **Use SMACT when**: You want reliable variations of known materials, need fast screening, require high confidence
 - **Use Chemeleon when**: You want to explore novel structures, study underexplored chemical space, find new polymorphs
 
-The best approach often combines both methods: use Chemeleon for discovery and SMACT for validation against known chemical patterns.
+The best approach often combines both methods: use Chemeleon for exploration and SMACT for validation against known chemical patterns.
 
 ## The Future of AI-Driven Materials Discovery
 
@@ -157,4 +157,4 @@ Chemeleon represents just the beginning of AI-driven materials discovery. Future
 - Closed-loop discovery where AI learns from each experiment
 - Acceleration of materials development from decades to years
 
-In the next section, we'll explore how to use Chemeleon for your own materials discovery projects, including both Crystal Structure Prediction (CSP) and De Novo Generation (DNG) tasks. 
+In the next section, we'll explore how to use Chemeleon for your own materials discovery projects, including both Crystal Structure Prediction (CSP) and De Novo Generation (DNG) tasks.
