@@ -1,17 +1,17 @@
 # Synthesisability in Materials Design
 
-This section is still a work  explores methods to assess and predict the synthesisability of computationally designed materials.
+This section is still a work in progress but will soon contain content exploring methods to assess and predict the synthesisability of computationally designed materials.
 
 ## Learning Objectives
 
 After completing this section, you will be able to:
 
 1. Understand factors affecting material synthesis
-2. Apply metrics for synthesisability prediction
+2. Apply data driven methods for synthesisability prediction
 3. Evaluate synthesis pathways
 4. Consider practical constraints in materials design
 
-## Topics Covered
+## Topics that will be covered
 
 1. Synthesisability Metrics
    - Thermodynamic Stability
@@ -30,4 +30,3 @@ After completing this section, you will be able to:
    - Reaction Condition Optimization
    - Yield Prediction
    - Risk Assessment
-

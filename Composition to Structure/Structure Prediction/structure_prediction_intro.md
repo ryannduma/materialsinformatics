@@ -1,3 +1,4 @@
+
 # From Composition to Structure: The SMACT Approach
 
 You've learnt to find chemically viable compositions through combinatorial screening and intelligent filtering. But here's the next challenge: **How do you predict what crystal structure those compositions will adopt?**

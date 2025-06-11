@@ -1,7 +1,7 @@
 # Book settings. Learn more at https://jupyterbook.org/customize/config.html
 title: Materials Informatics Advanced Practical
-author: Ry Nduma, Hyunsoo Park, Anthony Onwuli, and Aron Walsh
-copyright: "2024"
+author: Ry Nduma (Materials Design Group)
+copyright: "2025"
 logo: SMACT logo.png # logo in top-left corner
 only_build_toc_files: true # whether to ignore the extra files
 exclude_patterns:

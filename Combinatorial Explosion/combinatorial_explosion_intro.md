@@ -40,4 +40,4 @@ In this section, we'll explore:
 
 The encouraging news is that while the space is vast, it isn't random. Chemical principles, data from known materials, and machine learning can guide us to the most promising regions. This is where materials informatics becomes valuable - transforming an overwhelming search into a manageable problem.
 
-Dive in!
+Let's begin!

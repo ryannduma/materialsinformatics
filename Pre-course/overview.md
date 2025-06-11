@@ -2,7 +2,7 @@
 
 Welcome to this small practical course on computational materials design! In this course, you'll learn how to use ml/ai and informatics tools to learn about the materials design process with relevant examples enhancing your understanding behind how batteries, solar cells, catalysts, semiconductors and a variety of other materials applications can be designed virtually before being synthesised and utilised in the real world.
 
-At the heart of this journey is **SMACT** (Semiconducting Materials from Analogy and Chemical Theory), a powerful Python toolkit that enables rapid screening of millions of potential materials using chemical rules and data-driven approaches. You'll also explore cutting-edge AI methods like **Chemeleon**, which can generate crystal structures from simple text descriptions. The course culminates with comprehensive tutorials on advanced computational methods including **MACE** (machine learning force fields) and **Density Functional Theory**, providing you with a complete toolkit for modern materials research.
+At the heart of this journey is **SMACT** (Semiconducting Materials from Analogy and Chemical Theory), a powerful Python toolkit that enables rapid screening of millions of potential materials using chemical rules and data-driven approaches. You'll also explore cutting-edge AI tools like **Chemeleon**, which can generate crystal structures from simple text descriptions. The course culminates with comprehensive tutorials on advanced computational methods including **MACE** (machine learning force fields) and **Density Functional Theory**, providing you with a complete toolkit for modern materials research.
 
 ## Course Overview
 
@@ -108,7 +108,7 @@ This course is structured to provide both theoretical knowledge and practical sk
 - **Density Functional Theory (DFT):** Understand the theoretical foundations of quantum mechanical calculations with detailed guides on DFT theory and VASP capabilities.
 - **Machine Learning Force Fields:** Explore MACE (Multi-Atomic Cluster Expansion) through practical tutorials and theoretical explanations, learning how to achieve DFT-level accuracy at classical simulation speeds.
 - **Thermodynamics:** Understand the role of thermodynamic principles in materials discovery.
-- **Synthesisability:** Discuss practical considerations in material synthesis.
+- **Synthesisability:** Coming soon :) .
 
 **Learning Outcomes:**
 
@@ -164,4 +164,4 @@ This is a self-paced practical course built around:
 
 ---
 
-If you have any questions, don't hesitate to reach out and if there are any issues with the notebooks drop Ry an email - napo.nduma22@imperial.ac.uk
+If you have any questions, don't hesitate to reach out and if there are any urgent issues with the notebooks drop Ry an email - napo.nduma22@imperial.ac.uk

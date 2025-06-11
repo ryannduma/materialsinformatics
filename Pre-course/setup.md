@@ -162,7 +162,7 @@ Navigate to any of the course notebooks and start learning!
 - Try reinstalling the package that's failing to import
 
 **4. Chemeleon Model Download Issues**
-- The first run will download pretrained models (~500MB)
+- The first run will download pretrained model checkpoints (~500MB)
 - Ensure you have a stable internet connection
 - Models are cached after first download
 
@@ -196,7 +196,7 @@ If you encounter issues:
 
 After successful setup:
 1. Test your installation by running the first notebook in "Combinatorial Explosion"
-2. Familiarize yourself with Jupyter notebooks if needed
+2. Familiarise yourself with Jupyter notebooks if needed
 3. Review the course overview to understand the learning path
 
 Happy materials discovery!
