@@ -11,7 +11,7 @@ parts:
 
   - caption: Combinatorial Explosion
     chapters:
-      - file: Combinatorial Explosion/intro to combinatorial explosion
+      - file: Combinatorial Explosion/combinatorial_explosion_intro
         title: Introduction to Combinatorial Explosion
         sections:
           - file: Combinatorial Explosion/follow along notebook
@@ -19,7 +19,7 @@ parts:
 
   - caption: Chemical Filters
     chapters:
-      - file: Chemical Filters/intro to chemical filters
+      - file: Chemical Filters/chemical_filters_intro
         title: Introduction to Chemical Filters
         sections:
           - file: Chemical Filters/follow along notebook
@@ -27,7 +27,7 @@ parts:
 
   - caption: Compositional Screening
     chapters:
-      - file: Compositional Screening/intro
+      - file: Compositional Screening/compositional_screening_intro
         title: Introduction to Compositional Screening
         sections:
           - file: Compositional Screening/follow along notebook
@@ -35,7 +35,7 @@ parts:
 
   - caption: Stoichiometry Screening
     chapters:
-      - file: Stoichiometry Screening/intro
+      - file: Stoichiometry Screening/stoichiometry_screening_intro
         title: Introduction to Stoichiometry Screening
         sections:
           - file: Stoichiometry Screening/follow along notebook
@@ -43,12 +43,12 @@ parts:
 
   - caption: Composition to Structure
     chapters:
-      - file: Composition to Structure/Structure Prediction/intro
+      - file: Composition to Structure/Structure Prediction/structure_prediction_intro
         title: Traditional Structure Prediction
         sections:
           - file: Composition to Structure/Structure Prediction/follow along notebook
             title: Follow Along Exercise
-      - file: Composition to Structure/CHEMELEON/intro
+      - file: Composition to Structure/CHEMELEON/chemeleon_intro
         title: AI-Powered Structure Generation
         sections:
           - file: Composition to Structure/CHEMELEON/follow along notebook
@@ -56,23 +56,26 @@ parts:
 
   - caption: Advanced Methods
     chapters:
-      - file: Advanced Methods/Thermodynamics/intro
+      - file: Advanced Methods/Thermodynamics/thermodynamics_intro
         title: Thermodynamics
-      - file: Advanced Methods/MLFF/intro
+        sections:
+          - file: Advanced Methods/Thermodynamics/thermodynamics_theory
+            title: Thermodynamics Theory
+      - file: Advanced Methods/MLFF/mlff_intro
         title: Machine Learning Force Fields
         sections:
           - file: Advanced Methods/MLFF/mace_tutorial
             title: MACE Tutorial
           - file: Advanced Methods/MLFF/mace_theory
             title: MACE Theory
-      - file: Advanced Methods/DFT/intro
+      - file: Advanced Methods/DFT/dft_intro
         title: Density Functional Theory
         sections:
           - file: Advanced Methods/DFT/dft_theory
             title: DFT Theory
           - file: Advanced Methods/DFT/vasp_overview
             title: VASP Overview
-      - file: Advanced Methods/Synthesisability/intro
+      - file: Advanced Methods/Synthesisability/synthesisability_intro
         title: Synthesisability
 
   - caption: Reference

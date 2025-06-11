@@ -1,6 +1,6 @@
 # Synthesisability in Materials Design
 
-This section explores methods to assess and predict the synthesisability of computationally designed materials.
+This section is still a work  explores methods to assess and predict the synthesisability of computationally designed materials.
 
 ## Learning Objectives
 
@@ -31,4 +31,3 @@ After completing this section, you will be able to:
    - Yield Prediction
    - Risk Assessment
 
-Let's bridge the gap between computational design and experimental realization. 
