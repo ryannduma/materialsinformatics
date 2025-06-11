@@ -8,20 +8,6 @@ ase
 pandas
 pathos
 typing-extensions
-torch>=2.1.0
-pytorch-lightning>=2.1.0
-torch-geometric
-torch-scatter
-torchmetrics
-streamlit
-dash
-tqdm
-wandb
-click
-fire
-transformers
-pydantic
-einops
 pymatgen
 
 # Visualization and notebook dependencies
@@ -29,6 +15,7 @@ matplotlib
 seaborn
 jupyter
 jupyterlab
+jupyter-book
 notebook
 ipywidgets
 
