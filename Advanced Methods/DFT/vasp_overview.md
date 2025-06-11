@@ -7,6 +7,7 @@ VASP (Vienna Ab initio Simulation Package) is one of the most widely used softwa
 ## What is VASP?
 
 VASP is a plane-wave DFT code that can:
+
 - Calculate ground-state electronic structures
 - Perform geometry optimisations
 - Run molecular dynamics simulations
@@ -24,6 +25,7 @@ VASP is a plane-wave DFT code that can:
 ## Capabilities of VASP
 
 ### 1. Electronic Structure Calculations
+
 - **Band Structures**: Complete electronic band diagrams
 - **Density of States (DOS)**: Total and projected DOS
 - **Charge Densities**: Spatial distribution of electrons
@@ -31,6 +33,7 @@ VASP is a plane-wave DFT code that can:
 - **Fermi Surfaces**: For metallic systems
 
 ### 2. Structural Properties
+
 - **Geometry Optimisation**: Finding equilibrium structures
 - **Lattice Parameters**: Determining crystal structures
 - **Surface Reconstructions**: Studying surface arrangements
@@ -38,24 +41,28 @@ VASP is a plane-wave DFT code that can:
 - **Phase Transitions**: Structural transformations
 
 ### 3. Mechanical Properties
+
 - **Elastic Constants**: Full elastic tensor
 - **Bulk Modulus**: Compressibility
 - **Phonon Calculations**: Vibrational properties
 - **Thermal Expansion**: Temperature-dependent properties
 
 ### 4. Magnetic Properties
+
 - **Collinear Magnetism**: Ferromagnetic/antiferromagnetic states
 - **Non-Collinear Magnetism**: Complex spin arrangements
 - **Spin-Orbit Coupling**: Relativistic effects
 - **Magnetic Anisotropy**: Directional preferences
 
 ### 5. Optical Properties
+
 - **Dielectric Functions**: Frequency-dependent response
 - **Absorption Spectra**: Optical absorption
 - **Reflectivity**: Surface optical properties
 - **Electron Energy Loss**: EELS spectra
 
 ### 6. Advanced Calculations
+
 - **GW Approximation**: Many-body corrections
 - **BSE**: Bethe-Salpeter equation for excitons
 - **RPA**: Random phase approximation
@@ -100,7 +107,11 @@ VASP is a plane-wave DFT code that can:
 
 VASP requires four main input files:
 
-1. **INCAR**: Calculation parameters
+```{tip}
+Do note that these are by far non-exhaustive as VASP contains a list of lots of input parameters that can vary with workflows, materials and systems under study. For more information, refer to the VASP documentation at [VASP Wiki INCAR tags](https://www.vasp.at/wiki/index.php/Category:INCAR_tag).
+```
+
+1. **INCAR**: Calculation parameters 
 ```
 SYSTEM = Silicon
 ENCUT = 400
@@ -165,11 +176,13 @@ Monkhorst-Pack
 ### Computational Cost
 
 **VASP Scaling**:
+
 - CPU time ~ N³ (N = number of electrons)
 - Memory ~ N²
 - Typical calculation: 100-10,000 CPU hours
 
 **MACE Scaling**:
+
 - CPU time ~ N (N = number of atoms)
 - Memory ~ N
 - Typical calculation: 1-100 CPU hours
@@ -177,6 +190,7 @@ Monkhorst-Pack
 ### Accuracy Considerations
 
 **VASP**:
+
 - Systematic errors from functional choice
 - Convergence with respect to:
   - Plane-wave cutoff
@@ -184,6 +198,7 @@ Monkhorst-Pack
   - SCF tolerance
 
 **MACE**:
+
 - Errors from:
   - Training data quality
   - Model architecture
@@ -202,12 +217,14 @@ An effective approach often combines both methods:
 ## Example: Studying a New Material
 
 ### Traditional VASP-Only Approach
+
 1. Structure prediction (days-weeks)
 2. Geometry optimisation (hours-days)
 3. Property calculations (days)
 4. Limited configurational sampling
 
 ### MACE-Accelerated Approach
+
 1. Rapid structure search with MACE (hours)
 2. Screen 1000s of configurations (hours)
 3. Validate top candidates with VASP (days)
@@ -217,12 +234,14 @@ An effective approach often combines both methods:
 ## Licensing and Access
 
 ### VASP
+
 - **Commercial Software**: Requires paid licence
 - **Academic Licence**: ~€4000-5000 for group
 - **Installation**: Complex, requires expertise
 - **Support**: Professional support available
 
 ### MACE
+
 - **Open Source**: MIT licence
 - **Free**: No cost
 - **Installation**: Simple pip install

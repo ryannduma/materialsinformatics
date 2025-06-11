@@ -27,5 +27,4 @@ After completing this section, you will be able to:
    - Energy Calculations
    - Temperature Effects
    - Pressure Effects
-
-Let's begin exploring these concepts in detail. 
+ 

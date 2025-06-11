@@ -33,7 +33,7 @@ This means Chemeleon can:
 
 ## From Substitution to Generation: A Fundamental Shift
 
-To understand Chemeleon's revolutionary approach, let's compare it directly with traditional methods:
+To understand Chemeleon's generatrive approach, let's compare it directly with traditional methods:
 
 ### Traditional Structure Prediction (SMACT Approach):
 
@@ -63,7 +63,7 @@ Just as CLIP learns to connect images with text, Crystal CLIP learns to connect 
 
 ### 2. Diffusion Models
 
-Similar to how image generation models like DALL-E work, CHEMELEON uses diffusion to generate crystal structures:
+Similar to how image generation models like DALL-E work, Chemeleon uses diffusion to generate crystal structures:
 
 - Starting from random noise
 - Gradually denoising to reveal a coherent crystal structure

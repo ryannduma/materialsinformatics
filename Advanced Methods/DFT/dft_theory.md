@@ -11,6 +11,7 @@ The primary challenge in quantum mechanics is solving the Schrödinger equation 
 $$\hat{H}\Psi = E\Psi$$
 
 For a system of N electrons and M nuclei, the Hamiltonian contains:
+
 - Kinetic energy of electrons
 - Kinetic energy of nuclei
 - Electron-electron repulsion
@@ -24,11 +25,13 @@ The exact solution scales exponentially with system size, making it intractable 
 DFT is built on two fundamental theorems proved by Hohenberg and Kohn in 1964:
 
 ### Theorem 1: Existence
+
 The ground-state electron density $n(\mathbf{r})$ uniquely determines the external potential $v(\mathbf{r})$ (up to a constant).
 
 **Implication**: All ground-state properties are functionals of the electron density.
 
 ### Theorem 2: Variational Principle
+
 The ground-state energy can be obtained by minimising the energy functional:
 
 $$E[n] = F[n] + \int n(\mathbf{r})v(\mathbf{r})d\mathbf{r}$$
@@ -221,11 +224,13 @@ Adds on-site Coulomb repulsion for localised electrons:
 $$E = E_{\text{DFT}} + \frac{U}{2}\sum_{i,\sigma} n_{i\sigma}(1-n_{i\sigma})$$
 
 ### Time-Dependent DFT (TD-DFT)
+
 Extension to excited states and dynamics:
 
 $$i\hbar\frac{\partial}{\partial t}\phi_i(\mathbf{r},t) = \hat{H}_{\text{KS}}[n(t)]\phi_i(\mathbf{r},t)$$
 
 ### Constrained DFT
+
 Fix certain properties (magnetisation, charge) to study specific states.
 
 ## Comparison with Other Methods
@@ -241,12 +246,14 @@ Fix certain properties (magnetisation, charge) to study specific states.
 ## Software Packages
 
 ### Plane-Wave Codes
+
 - **VASP**: Commercial, widely used
 - **Quantum ESPRESSO**: Open source
 - **CASTEP**: Commercial, UK-based
 - **Abinit**: Open source
 
 ### Localised Basis Codes
+
 - **Gaussian**: Molecular focus
 - **CP2K**: Mixed Gaussian/plane-wave
 - **SIESTA**: Numerical orbitals
@@ -278,6 +285,7 @@ Fix certain properties (magnetisation, charge) to study specific states.
 ## Conclusion
 
 DFT has transformed computational materials science by providing:
+
 - Practical quantum mechanical calculations
 - Predictive power for materials properties
 - Foundation for materials design

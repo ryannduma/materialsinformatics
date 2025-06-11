@@ -35,11 +35,10 @@ After completing this section, you will be able to:
 ## Available Resources
 
 ### Comprehensive Documentation
+
 We provide detailed resources to help you understand DFT and its practical applications:
 
 - **[DFT Theory](dft_theory.md)**: Comprehensive guide to the theoretical foundations of density functional theory
 - **[VASP Overview](vasp_overview.md)**: Understanding VASP capabilities and how it compares with machine learning methods like MACE
 
 These resources will give you a solid foundation in ab initio calculations and help you understand when to use DFT versus machine learning approaches.
-
-Let's dive into the quantum mechanical approach to materials modelling. 

@@ -26,7 +26,7 @@ where:
 - $T$ is the temperature
 - $S$ is the entropy (disorder)
 
-**Why it matters**: Materials with lower Gibbs free energy are more stable. When comparing different possible structures or compositions, nature favors the configuration with the lowest G.
+**Why it matters**: Materials with lower Gibbs free energy are more stable. When comparing different possible structures or compositions, nature favours the configuration with the lowest G.
 
 ### Enthalpy: The Energy Budget
 
@@ -55,6 +55,7 @@ The chemical potential ($\mu$) represents the energy cost of adding one more ato
 $$\mu_i = \frac{\partial G}{\partial n_i}$$
 
 This concept is crucial for understanding:
+
 - Why materials decompose
 - Which phases form under different conditions
 - How materials exchange atoms with their environment
@@ -71,7 +72,7 @@ The convex hull (often called the "ehull" or energy hull) is a geometric constru
 
 **Energy above hull (Ehull)**: The vertical distance from a material to the hull indicates its instability:
 - Ehull = 0: Thermodynamically stable
-- 0 < Ehull < 25 meV/atom: Potentially synthesizable
+- 0 < Ehull < 25 meV/atom: Potentially synthesisable
 - Ehull > 50 meV/atom: Likely unstable
 
 ### Reading Phase Diagrams
@@ -90,6 +91,7 @@ Temperature
 ```
 
 Key features to identify:
+
 - **Single phase regions**: Only one structure is stable
 - **Two-phase regions**: Material separates into two phases
 - **Phase boundaries**: Where transitions occur
@@ -102,7 +104,7 @@ Not all useful materials are thermodynamically stable! Many technologically impo
 - **Many battery cathodes**: Delithiated states are often metastable
 - **Amorphous materials**: Higher energy than crystals but kinetically trapped
 
-**Practical consideration**: If Ehull < 50 meV/atom and there are high kinetic barriers to decomposition, the material might be synthesizable.
+**Practical consideration**: If Ehull < 50 meV/atom and there are high kinetic barriers to decomposition, the material might be synthesisable.
 
 ## Computational Methods for Thermodynamics
 
@@ -164,26 +166,27 @@ While often neglected in initial screening, pressure can dramatically affect sta
 3. **Determine Ehull** for your target composition
 4. **Check decomposition products** to understand failure modes
 5. **Estimate temperature effects** if near stability boundary
-6. **Consider synthesis conditions** that might stabilize the phase
+6. **Consider synthesis conditions** that might stabilise the phase
 
 ### Rules of Thumb
 
 - **Stable materials**: Ehull = 0 meV/atom
-- **Synthesizable materials**: Ehull < 25-50 meV/atom
-- **Temperature stabilization**: ~25 meV/atom per 300K from entropy
+- **Synthesisable materials**: Ehull < 25-50 meV/atom
+- **Temperature stabilisation**: ~25 meV/atom per 300K from entropy
 - **Polymorphs**: Often within 10-50 meV/atom of each other
 - **Hydration/oxidation**: Check stability against H₂O and O₂
 
 ### Common Pitfalls
 
 1. **Ignoring competing phases**: Always check the full phase diagram
-2. **0K approximation**: Temperature can stabilize high-entropy phases
+2. **0K approximation**: Temperature can stabilise high-entropy phases
 3. **Missing metastable phases**: Databases might not include all polymorphs
 4. **Environmental stability**: Consider reaction with air/moisture
 
 ## Connecting to Other Course Concepts
 
 Thermodynamics provides the foundation for understanding:
+
 - **Why** certain compositions form (Chemical Filters section)
 - **Which** structures are preferred (Structure Prediction section)
 - **How** to design stable materials (Compositional Screening section)
@@ -192,6 +195,8 @@ In the next sections on DFT and MLFF, we'll see how these thermodynamic properti
 
 ## Further Reading
 
-- Computational Thermodynamics of Materials by Zi-Kui Liu
-- "High-throughput screening of inorganic compounds for the discovery of novel dielectric and optical materials" by Petousis et al.
+- Liu, Z.-K. (2016). Computational Thermodynamics of Materials. Cambridge University Press. https://doi.org/10.1017/CBO9781139018265
+
+- Petousis, I., Mrdjenovich, D., Ballouz, E. et al. High-throughput screening of inorganic compounds for the discovery of novel dielectric and optical materials. Sci Data 4, 160134 (2017). https://doi.org/10.1038/sdata.2016.134
+
 - Materials Project documentation on [thermodynamic stability](https://docs.materialsproject.org/methodology/thermodynamic-stability)

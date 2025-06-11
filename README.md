@@ -37,11 +37,6 @@ Please refer to the [Setup Instructions](Pre-course/setup.md) for installation a
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-- SMACT & Chemeleon developers
-
-- The open source community that build many of the libraries used herein, especially the [jupyter-book community](https://github.com/jupyter-book)
 
 ## References
 [H. Park et al.,
@@ -58,3 +53,11 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 [D. W. Davies et al.,
 "Computational screening of all stoichiometric inorganic materials" _Chem_ **1**, 617 (2016)](<http://www.cell.com/chem/abstract/S2451-9294(16)30155-3>)
+
+## Acknowledgments
+
+- SMACT & Chemeleon developers
+
+- The open source community that build many of the libraries used herein, especially the [jupyter-book community](https://github.com/jupyter-book)
+
+- The Materials Design Group and especially Aron Walsh, Hyunsoo Park and Anthony Onwuli for their guidance, mentorship and supervision.

@@ -21,6 +21,7 @@ Before exploring MACE in detail, it is useful to understand how it differs from 
 ## Installation
 
 ### Prerequisites
+
 - Python 3.8 or higher
 - PyTorch (with CUDA support for GPU acceleration)
 
