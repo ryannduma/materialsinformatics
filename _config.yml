@@ -1,6 +1,6 @@
 # Book settings. Learn more at https://jupyterbook.org/customize/config.html
 title: Materials Informatics Advanced Practical
-author: Authored by Ry Nduma at the Materials Design Group, Imperial College London
+author: Ry Nduma at the Materials Design Group, Imperial College London
 copyright: "2025"
 logo: SMACT logo.png # logo in top-left corner
 only_build_toc_files: true # whether to ignore the extra files
