@@ -33,7 +33,7 @@ jobs:
       - name: Build the book
         run: |
           set -e
-          jupyter-book build . --verbose
+          jupyter-book build .
 
       - name: Verify build output
         run: |
