@@ -33,11 +33,16 @@ jobs:
       - name: Build the book
         run: |
           jupyter-book build .
-      
+
+      - name: Verify build output
+        run: |
+          ls -la _build/
+          ls -la _build/html/ || echo "html directory not found!"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_build/html
+          path: _build/html
 
   deploy:
     environment:
