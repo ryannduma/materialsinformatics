@@ -77,10 +77,3 @@ parts:
             title: VASP Overview
       - file: Advanced Methods/Synthesisability/synthesisability_intro
         title: Synthesisability
-
-  - caption: Reference
-    chapters:
-      - file: README
-        title: About This Course
-      - file: LICENSE
-        title: License
