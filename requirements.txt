@@ -18,6 +18,7 @@ jupyterlab
 jupyter-book
 notebook
 ipywidgets
+roman
 
 # Development dependencies
 pre-commit==3.3.3
