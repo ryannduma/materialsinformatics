@@ -5,7 +5,7 @@ with solution sections removed.
 
 Based on work by Zach del Rosario (https://github.com/zdelrosario/jupyter-authoring)
 
-Author: Ry Nduma
+Author: Materials Design Group, Imperial College London
 Date: 2024/10/31
 """
 

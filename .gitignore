@@ -225,3 +225,6 @@ $RECYCLE.BIN/
 *.swp
 
 *.bak
+
+ckpts/
+results/
