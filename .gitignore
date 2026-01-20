@@ -228,3 +228,6 @@ $RECYCLE.BIN/
 
 ckpts/
 results/
+
+# Claude Code instructions (local only)
+CLAUDE.md
