@@ -33,16 +33,15 @@ jobs:
         run: |
           pwd
           ls -la
-          echo "=== Checking jupyter-book ==="
-          which jupyter-book || echo "jupyter-book not in PATH"
-          python -m jupyter_book --version || echo "jupyter_book module not found"
-          echo "=== Checking for mystmd ==="
-          which myst || echo "myst not found"
-          npm list -g mystmd 2>/dev/null || echo "mystmd not installed via npm"
+          echo "=== jupyter-book info ==="
+          which jupyter-book
+          jupyter-book --version
+          echo "=== Check jupyter-book script content ==="
+          head -20 $(which jupyter-book)
 
       - name: Build the book
         run: |
-          python -m jupyter_book build . --all
+          jupyter-book build . --all 2>&1
 
       - name: Verify build output
         run: |
