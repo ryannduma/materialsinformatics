@@ -28,12 +28,21 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          pip install jupyter-book
-      
+
+      - name: Debug environment
+        run: |
+          pwd
+          ls -la
+          echo "=== Checking jupyter-book ==="
+          which jupyter-book || echo "jupyter-book not in PATH"
+          python -m jupyter_book --version || echo "jupyter_book module not found"
+          echo "=== Checking for mystmd ==="
+          which myst || echo "myst not found"
+          npm list -g mystmd 2>/dev/null || echo "mystmd not installed via npm"
+
       - name: Build the book
         run: |
-          set -e
-          jupyter-book build .
+          python -m jupyter_book build . --all
 
       - name: Verify build output
         run: |

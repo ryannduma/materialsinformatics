@@ -15,7 +15,7 @@ matplotlib
 seaborn
 jupyter
 jupyterlab
-jupyter-book
+jupyter-book==1.0.3
 notebook
 ipywidgets
 roman
