@@ -1,7 +1,7 @@
 # Book settings. Learn more at https://jupyterbook.org/customize/config.html
 title: Materials Informatics Advanced Practical
-author: the Materials Design Group, Imperial College London
-copyright: "2025"
+author: the Materials Design Group
+copyright: "2026"
 logo: SMACT logo.png # logo in top-left corner
 only_build_toc_files: true # whether to ignore the extra files
 exclude_patterns:
